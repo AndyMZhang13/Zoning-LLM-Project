@@ -1,14 +1,5 @@
 # PURPOSE OF THE PROJECT
-
-//TODO
-
-ZandyZhang will fill in this section with information about the purpose
-## Example Header 1
-
-### Example Smaller Header 1
-
-
-
+The purpose of this project is to evaluate whether Large Language Models (LLMs) can be used to extract and interpret zoning regulations from municipal planning documents, with the goal of improving the speed, accuracy, and accessibility of land use analysis. Specifically, we tested whether a query-based model could surface relevant zoning provisions from long and complex PDF documents when given a targeted prompt. This proof-of-concept aims to support infrastructure planning by streamlining zoning research, reducing manual review time, and enabling quicker comparison of local codes against environmental or planning benchmarks. Our ultimate objective is to assess whether this approach can inform the design of tools that identify gaps in zoning policy and promote more sustainable, efficient, and equitable land use.
 
 Be Advised: This project is still a proof of concept, and is not particularly user friendly
 
