@@ -1,7 +1,11 @@
 # PURPOSE OF THE PROJECT
 
+//TODO
 
+ZandyZhang will fill in this section with information about the purpose
+## Example Header 1
 
+### Example Smaller Header 1
 
 
 
