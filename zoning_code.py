@@ -1,11 +1,3 @@
-# HOW TO RUN THE CODE:
-# STEP 1: Paste into command line/terminal
-# pip install pymupdf faiss-cpu sentence-transformers transformers torch tqdm protobuf==3.20.3 keras==2.11.0 tensorflow==2.11.0
-
-# STEP 2: Replace pdf_path with path to pdf (right click copy path, then fix formatting)
-# EXAMPLE: pdf_path = "C:/Users/jgao0/.vscode/Personal/Zandy/test.pdf" 
- 
-
 import fitz  # PyMuPDF
 import re
 import faiss
@@ -70,7 +62,7 @@ def save_chunks_and_index(chunks, index, embeddings, index_path="zoning.index", 
 
 # Main script
 if __name__ == "__main__":
-    pdf_path = "C:/Users/jgao0/.vscode/Personal/Zandy/test.pdf" 
+    pdf_path = "C:/Users/EXAMPLEUSER/SOMEFOLDER/test.pdf" 
 
     print("[*] Extracting and processing text...")
     raw_text = extract_text_from_pdf(pdf_path)
